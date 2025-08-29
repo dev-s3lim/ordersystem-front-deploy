@@ -25,6 +25,3 @@ pnpm-debug.log*
 
 # Dependency directories
 package-lock.json
-
-# GitHub Actions
-.github/workflows/front-deploy.yml

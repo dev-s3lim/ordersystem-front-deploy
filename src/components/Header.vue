@@ -11,7 +11,7 @@
           </div>
         </v-col>
         <v-col class="text-center">
-          <v-btn :to="'/'">DEVOPS SHOP</v-btn>
+          <v-btn :to="'/'">DEVOPS AUTOMATION SHOP</v-btn>
         </v-col>
         <v-col class="d-flex justify-end">
             <v-btn :to="'/ordering/cart'">장바구니 {{ totalQuantity }}</v-btn>

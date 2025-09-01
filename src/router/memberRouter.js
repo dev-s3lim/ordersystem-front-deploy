@@ -11,7 +11,7 @@ export const memberRouter = [
         component: MemberCreate
     },
     {
-        path: "/member/login",
+        path: "/member/doLogin",
         name: "MemberLogin",
         component: MemberLogin
     },

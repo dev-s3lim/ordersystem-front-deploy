@@ -18,7 +18,7 @@
             <v-btn :to="'/product/list'">상품목록</v-btn>
             <v-btn v-if ="isLoggedin" :to="'/member/myInfo'">마이페이지</v-btn>
             <v-btn v-if ="!isLoggedin" :to="'/member/create'">회원가입</v-btn>
-            <v-btn v-if ="!isLoggedin" :to="'/member/login'">로그인</v-btn>
+            <v-btn v-if ="!isLoggedin" :to="'/member/doLogin'">로그인</v-btn>
             <v-btn v-if ="isLoggedin" @click="doLogout()">로그아웃</v-btn>
         </v-col>
       </v-row>

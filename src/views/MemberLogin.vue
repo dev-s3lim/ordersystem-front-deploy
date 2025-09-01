@@ -44,7 +44,7 @@ export default {
                     email: this.email,
                     password: this.password
                 };
-                const response = await axios.post(`${process.env.VUE_APP_API_BASE_URL}/member-service/member/doLogin`, data);
+                const response = await axios.post(`${process.env.VUE_APP_API_BASE_URL}/member/doLogin`, data);
                 const result = getResultData(response);
                 const accessToken = result.accessToken;
                 const refreshToken = result.refreshToken;
